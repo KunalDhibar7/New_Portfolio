@@ -1,0 +1,730 @@
+@media screen and (max-width : 600px) {
+
+
+
+    /* made by Kunal_Dhibar */
+
+
+    body {
+
+        background-color: black;
+
+        margin-top: 10px;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    /* header */
+
+    #myheader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mylogo {
+
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    #mylogo img {
+
+        width: 60px;
+        height: 60px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    #mylogo h2 {
+        padding: 10px 0px;
+
+    }
+
+
+    /* nabbar */
+    #navbar {
+        width: fit-content;
+        display: block;
+        margin: auto;
+        /* color: black; */
+        height: 1em;
+        height: 25px;
+        padding-right: 20px;
+
+    }
+
+
+    #navbar ul {
+        display: flex;
+        width: fit-content;
+        height: 35px;
+        margin: 5px;
+        list-style: none;
+
+    }
+
+
+    /* made by Kunal_Dhibar */
+
+
+
+    #navbar a {
+
+        font-size: 0.7em;
+        font-weight: 800;
+        color: white;
+        border-radius: 15px 15px white;
+        background-color: black;
+        text-decoration: none;
+        margin: 5px 2px;
+        padding: 5px 3px;
+
+
+    }
+
+    #navbar a:hover {
+
+        border: 2px solid white;
+        font-weight: 600;
+        background-color: black;
+        color: white;
+        border-radius: 15px 15px;
+    }
+
+
+    /* background-image====== */
+    #Background_image {
+        height: 40vh;
+        width: 60vh;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+        padding-right: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    /* MAIN CONTENT === */
+
+    #main_content {
+        display: flex;
+        justify-content: center;
+        margin: 35px;
+
+    }
+
+    #con {
+        margin-top: 50px;
+        padding-top: 30px;
+        width: 100vw;
+        height: 35vh;
+
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    #con2 {
+
+
+        width: fit-content;
+
+        height: 35vh;
+        margin-top: 10px;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+    #con2 img {
+        margin: 10px;
+        width: 8rem;
+        /* width: 20rem; */
+        height: 8rem;
+    }
+
+    /* home text */
+
+    #home_text {
+        width: 40vw;
+
+        margin: 60px 5px;
+        padding: 10px 5px;
+        padding-left: 30px;
+        display: block;
+        color: white;
+        font-size: 5px;
+        text-overflow: clip;
+        align-items: center;
+    }
+
+    #home_text h2 {
+        transition-property: font-size;
+        transition-duration: 2s;
+        font-size: 10px;
+        /* font-size: 1.5rem; */
+        font-weight: 800;
+        margin: 10px, 0px;
+    }
+
+    #home_text h2:hover {
+        cursor: pointer;
+        font-size: 15px;
+
+
+    }
+
+    #home_text p {
+        font-size: 10px;
+        transition-property: color;
+        transition-duration: 2s;
+        padding-bottom: 15px;
+        text-overflow: clip;
+
+    }
+
+    /* about */
+
+
+    /* about container/ */
+
+    #About_container {
+        margin-top: -50px;
+        /* border: 2px solid yellow; */
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    #box1 {
+
+        width: 50%;
+        /* border: 2px solid white; */
+    }
+
+    #box1 img {
+        /* border: 2px solid yellow; */
+        width: 5em;
+        background-size: cover;
+        padding-bottom: 10px;
+        display: block;
+        padding-top: 15px;
+        margin: auto;
+        margin-top: -60px;
+
+
+    }
+
+    #box2 {
+
+        font-size: 10px;
+        margin-left: 0px;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        /* border: 2px solid white; */
+
+    }
+
+
+
+
+    #box2 .tab_titles p {
+        font-size: 10px;
+        width: 60px;
+        align-items: center;
+        /* border: 2px solid white; */
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #about_heading {
+        margin-bottom: 4em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    #about_heading h2 {
+
+        font-size: 1.5rem;
+
+    }
+
+    #box2 p {
+        width: 200px;
+        padding-bottom: 10px;
+        text-align: center;
+        text-overflow: clip;
+    }
+
+
+
+
+    /* Services */
+
+
+    #Myservices h2 {
+
+        text-align: center;
+        font-size: 1.4rem;
+        margin-top: 10px;
+        padding: 0px 20px;
+        color: white;
+
+    }
+
+
+
+    .services {
+        /* border: 2px solid yellow; */
+        height: 120vh;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .containers {
+
+
+        border-radius: 15px;
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+        box-shadow: 5px -5px 25px;
+        background-color: #262626;
+        transition: background 0.9s, transform 0.5s;
+        display: block;
+        margin: auto;
+
+    }
+
+
+
+
+    .containers h3 {
+        font-size: 1.0rem;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        padding-top: 10px;
+
+    }
+
+
+    .containers p {
+        font-size: 10px;
+        width: 150px;
+        text-overflow: clip;
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .containers a {
+        font-size: 8px;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        padding-top: 30px;
+    }
+
+
+    .containers:hover {
+        background-color: #ff004f;
+
+    }
+
+
+    /* PORTFOLIO */
+    /* made by Kunal_Dhibar */
+
+
+    #Myworks {
+        text-align: center;
+        color: white;
+        font-size: 1.3rem;
+        padding-right: 20px;
+        padding-top: 10px;
+        margin-top: 10px;
+
+    }
+
+
+
+    .works {
+
+
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        margin: 50px 10px;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+
+    }
+
+    .work {
+
+        height: 450px;
+        width: 250px;
+        margin: 30px 10px;
+        padding: 15px 10px;
+        transition: background 0.5s, transform 0.5s;
+        box-shadow: 5px -5px 25px silver;
+
+    }
+
+
+
+
+    .works h2 {
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 20px;
+
+    }
+
+    .works p {
+        color: white;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    #work1 {
+        background: url(netflix3.jpg);
+        background-size: cover;
+
+
+
+    }
+
+    #work2 {
+        background: url(music.jpg);
+        background-size: cover;
+    }
+
+    #work3 {
+        background: url(todo3.jpg);
+        background-size: cover;
+        margin-bottom: 150px;
+    }
+
+    .work a {
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        display: block;
+        padding-top: 10px;
+
+    }
+
+    .work_link:hover {
+        color: yellow;
+    }
+
+    .work:hover {
+        background-color: #ea7047;
+        /* transform: translateY(-5px); */
+        transform: scale(1.1);
+
+
+    }
+
+    .work:hover p {
+        color: yellow;
+    }
+
+
+    /* contact */
+
+    /* made by Kunal_Dhibar */
+
+
+    #contact_me h2 {
+        width: 250px;
+        font-size: 1.3rem;
+        align-items: center;
+        justify-content: center;
+        margin-left: 75px;
+    }
+
+    .storage {
+        /* border: 2px solid yellow; */
+        margin-top: 20px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        width: 85vw;
+        height: 100vh;
+        justify-content: space-between;
+        color: white;
+        font-size: 2.3rem;
+
+
+    }
+
+
+
+    /* left  */
+
+
+
+
+
+
+    #left {
+        /* border: 2px solid yellow; */
+        width: 70vw;
+        display: flex;
+        font-size: 20px;
+
+
+    }
+
+
+    #left img {
+        height: 30px;
+        width: 30px;
+    }
+
+
+    .storage #mail a {
+
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .storage #mobno {
+        font-size: 13px;
+        margin-bottom: -10px;
+    }
+
+
+    .storage div {
+        margin: 15px;
+    }
+
+
+
+    .logos {
+        display: flex;
+        width: 20px;
+        /* justify-content: centers; */
+        /* border: 2px solid white; */
+
+    }
+
+
+
+    .logos img {
+        margin: 2px;
+        padding: 2px 5px;
+    }
+
+
+
+
+
+    .button {
+
+        width: 150px;
+        height: 40px;
+        background-color: #ff004f;
+        cursor: pointer;
+        color: white;
+        transition: background 0.5s, transform 0.5s;
+    }
+
+
+
+
+    .buttonCV a {
+
+        font-size: 15px;
+        border: 2px solid #007bff;
+        background-color: #ff004f;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background 0.2s, transform 0.5s;
+
+    }
+
+    .buttonCV a:hover {
+        background-color: #61b752;
+    }
+
+
+
+    .button:active {
+
+        transform: scale(0.8);
+        background-color: #ff004f;
+        color: white;
+
+    }
+
+
+    .popup {
+        width: 120px;
+        height: 120px;
+        background: #fff;
+        border-radius: 9px;
+        position: sticky;
+        text-align: center;
+        padding: 0 30px 30px;
+        color: #333;
+        color: black;
+        /* visibility: hidden; */
+        transition: transform(0.4s, top 0.4s);
+        bottom: 30%;
+
+    }
+
+    .open-popup {
+        visibility: visible;
+        transform: translate(10%, 10%) scale(1);
+        transition: 0.4s;
+    }
+
+    .popup img {
+        width: 80px;
+        margin-top: -60px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .popup h2 {
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 5px 0 10px;
+    }
+
+    .popup p {
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+        margin: 5px 0 10px;
+    }
+
+    .popup button {
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        background: #6fd649;
+        color: #fff;
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+
+    }
+
+
+
+
+
+    /* right */
+
+
+
+
+    #forms {
+        width: 70vw;
+    }
+
+
+    #right div {
+        margin: 20px;
+        padding: 3px;
+    }
+
+    #take_name {
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        width: 200px;
+        height: 30px;
+        background-color: #262626;
+    }
+
+    #take_email {
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        width: 200px;
+        height: 30px;
+        background-color: #262626;
+
+    }
+
+    #take_text {
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        width: 200px;
+        height: 100px;
+        background-color: #262626;
+
+
+    }
+
+    #myfooter {
+        bottom: 0%;
+        /* visibility: hidden;     */
+        width: 115vw;
+        height: 35px;
+        background-color: #392028;
+
+    }
+
+    #myfooter p {
+        font-size: 10px;
+        width: 200px;
+        /* margin: auto; */
+        display: block;
+        padding-top: 9px;
+    }
+
+    #msg {
+        color: #61b752;
+        margin-top: -10px;
+        margin-left: 40px;
+        font-size: 15px;
+        display: block;
+    }
+
+}
+
+/* made by Kunal_Dhibar */
